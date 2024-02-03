@@ -765,6 +765,9 @@
   @media screen and (max-width: 320px) {
     div.modal-content > iframe{
       width: 240px !important ;
+      .btn-con{
+        flex-direction: column;
+      }
     }
   }
   @media screen and (max-width: 600px) {
