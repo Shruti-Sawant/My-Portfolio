@@ -761,6 +761,9 @@
     div.modal-content > iframe{
       width: 290px !important ;
     }
+    .btn-con{
+      flex-direction: column;
+    }
   }
   @media screen and (max-width: 320px) {
     div.modal-content > iframe{
