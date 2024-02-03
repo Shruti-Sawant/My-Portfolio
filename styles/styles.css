@@ -764,6 +764,13 @@
     .btn-con{
       flex-direction: column;
     }
+ 
+
+    .my1{
+      margin-left: 60px;
+      margin-top: 4px;
+    }
+   
   }
   @media screen and (max-width: 320px) {
     div.modal-content > iframe{
@@ -1030,6 +1037,33 @@
     width: 279px;
     }
     
+}
+@media screen and (max-width:430px){
+  .right-header {
+      .name{
+     width: 256px;}
+
+      p{
+       width: 260px;
+       
+      }
+      .dynamic-txts{
+        padding-right: 50px;
+      }
+  }
+  .btn-con{
+    flex-direction: column;
+  }
+
+  .my1{
+    margin-left: 60px;
+    margin-top: 4px;
+  }
+ 
+ .header-content .left-header{
+  width: 279px;
+  }
+  
 }
 .dynamic-txts{
   margin-left: 15px;
