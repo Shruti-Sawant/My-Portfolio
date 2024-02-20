@@ -319,22 +319,34 @@
   .about-stats .progress-bars .progress-bar .progress-con .progress .js {
     width: 75%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
+  .about-stats .progress-bars .progress-bar .progress-con .progress .react{
     width: 70%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .java {
     width: 75%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .spring {
+  .about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
     width: 70%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .postgres {
+  .about-stats .progress-bars .progress-bar .progress-con .progress .mySql{
     width: 65%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
+    width: 65%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .express{
+    width: 80%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
     width: 85%;
   }
-  
+  .about-stats .progress-bars .progress-bar .progress-con .progress .ejs {
+    width: 80%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+    width: 30%;
+  }
+
   .stat-title {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -452,6 +464,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 0 12PX;
   }
   .portfolios .portfolio-item .hover-items .icons .icon {
     background-color: var(--color-primary);
@@ -1103,4 +1117,11 @@
   100%{
     left: 0;
   }
+}
+.btn-tag{
+  background-color: rgb(219, 206, 180);
+  color: #0c0b0b;
+  padding: 6px 12px;
+  border: transparent;
+  border-radius: 20px;
 }
