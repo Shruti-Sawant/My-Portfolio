@@ -465,7 +465,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 12PX;
+    padding: 0 12px;
   }
   .portfolios .portfolio-item .hover-items .icons .icon {
     background-color: var(--color-primary);
